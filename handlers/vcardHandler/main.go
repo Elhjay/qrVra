@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"log"
 
-	"main/database"
+	"./database"
 
-	vcardentity "main/entities/vcardEntity"
+	vcardentity "./entities/vcardEntity"
 
 	"github.com/gin-gonic/gin"
 	"go.mongodb.org/mongo-driver/bson"
