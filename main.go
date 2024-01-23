@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/Elhjay/qrVra/main/database"
-	"github.com/Elhjay/qrVra/main/routes"
+	"./main/database"
+	"./main/routes"
 
 	"github.com/gin-gonic/gin"
 )

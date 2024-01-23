@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"github.com/Elhjay/qrVra/main/handlers/excelhandler"
-	"github.com/Elhjay/qrVra/main/handlers/vcardhandler"
+	"./main/handlers/excelhandler"
+	"./main/handlers/vcardhandler"
 
 	"github.com/gin-gonic/gin"
 )

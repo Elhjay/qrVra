@@ -1,4 +1,4 @@
-module github.com/Elhjay/qrVra/main
+module main
 
 go 1.21.4
 
