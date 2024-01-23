@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"./main/errorHandlers/standardError"
+	"main/errorHandlers/standardError"
 
 	"github.com/joho/godotenv"
 
