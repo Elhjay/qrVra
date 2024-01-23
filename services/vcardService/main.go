@@ -2,7 +2,8 @@ package vcardservice
 
 import (
 	"fmt"
-	"main/services/excelService"
+
+	"github.com/Elhjay/qrVra/main/services/excelService"
 )
 
 func GenerateVcardDataService(vcardArr []excelService.Person) string {

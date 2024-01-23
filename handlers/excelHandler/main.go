@@ -4,12 +4,13 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"main/database"
-	"main/services/excelService"
-	"main/services/qrservice"
 	"net/http"
 
-	vcardentity "main/entities/vcardEntity"
+	"github.com/Elhjay/qrVra/main/database"
+	"github.com/Elhjay/qrVra/main/services/excelService"
+	"github.com/Elhjay/qrVra/main/services/qrservice"
+
+	vcardentity "github.com/Elhjay/qrVra/main/entities/vcardEntity"
 
 	"github.com/gin-gonic/gin"
 )
