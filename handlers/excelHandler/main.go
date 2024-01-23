@@ -6,11 +6,11 @@ import (
 	"log"
 	"net/http"
 
-	"./database"
-	"./services/excelService"
-	"./services/qrservice"
+	"main/database"
+	"main/services/excelService"
+	"main/services/qrservice"
 
-	vcardentity "./entities/vcardEntity"
+	vcardentity "main/entities/vcardEntity"
 
 	"github.com/gin-gonic/gin"
 )

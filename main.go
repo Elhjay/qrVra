@@ -1,9 +1,9 @@
 package main
 
 import (
-	"./routes"
+	"main/routes"
 
-	"./database"
+	"main/database"
 
 	"github.com/gin-gonic/gin"
 )
